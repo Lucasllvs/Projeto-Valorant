@@ -1,6 +1,6 @@
 
 @media (max-width: 769px) {
-    main .personagem .imagem #sova, #phoenix, #viper, #sova, #sage{
+    main .personagem .imagem #sova, #phoenix, #viper, #sova, #sage, #raze{
         height: 100%;
     }
 
@@ -18,13 +18,14 @@
 
     .conteudo .logo{
         display: none;
+        padding: 50px;
     }
 
     .botoes {
         flex-direction: row;
         align-items: flex-end;
         width: 100%;
-        padding: 30px;
+        padding: 45px;
         
 
     }
@@ -36,12 +37,13 @@
 
 
 @media (max-width: 425px){
-    main .personagem .imagem #sova, #phoenix, #viper, #sova, #sage{
+    main .personagem .imagem #sova, #phoenix, #viper, #sova, #sage, #raze{
         height: 85%;
     }
 
     .conteudo .logo{
         width: 170px;
         height: 75px;
+        padding: 35px;
     }
 }
