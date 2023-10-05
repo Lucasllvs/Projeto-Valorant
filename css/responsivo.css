@@ -1,0 +1,47 @@
+
+@media (max-width: 769px) {
+    main .personagem .imagem #sova, #phoenix, #viper, #sova, #sage{
+        height: 100%;
+    }
+
+    .conteudo {
+        justify-content: flex-end;
+        left: 0px;
+        top: -20%;
+        max-width: 100vw;
+        padding: 30px;
+    }
+
+    .conteudo .nome-personagem{
+        max-width: 500px;
+    }
+
+    .conteudo .logo{
+        display: none;
+    }
+
+    .botoes {
+        flex-direction: row;
+        align-items: flex-end;
+        width: 100%;
+        padding: 30px;
+        
+
+    }
+
+    .botoes .botao img{
+        max-width: 60px;
+    }
+}
+
+
+@media (max-width: 425px){
+    main .personagem .imagem #sova, #phoenix, #viper, #sova, #sage{
+        height: 85%;
+    }
+
+    .conteudo .logo{
+        width: 170px;
+        height: 75px;
+    }
+}

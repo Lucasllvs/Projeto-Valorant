@@ -1,0 +1,106 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Changa&display=swap');
+
+body {
+    background-image: url(../imagem/fundovalorant.png);
+    overflow: hidden;
+}
+
+/* main::after {
+    content: "";
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    min-height: 100vh;
+    width: 80vw;
+    
+} */
+
+main .personagem {
+    display: none;
+    height: 100vh;
+}
+
+main .personagem.selecionado {
+    display: block;
+}
+
+main .personagem .imagem {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+ #sova, #phoenix, #sage, #viper{
+    width: 100%;
+    height: auto; 
+}
+
+.conteudo {
+    position: absolute;
+    top: 0px;
+    left: 120px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    min-height: 100vh;
+    max-width: 380px;
+}
+
+.conteudo .nome-personagem {
+    color: white;
+    font-size: 48px;
+    font-family: Chnaga, arial, sans-serif;
+    font-weight: bolder;
+    margin-bottom: 20px;
+    text-shadow: 1px 1px 2px rgba(255, 255, 0, 0.644);
+}
+
+.conteudo .descricao {
+    color: white;
+    font-family: Changa, arial, sans-serif;
+    text-shadow: 0px 0px 1px  rgba(255, 255, 0, 0.644);
+    font-size: 17px;
+    line-height: 24px;
+}
+
+.conteudo .logo {
+    background-image: url(../imagem/valorantlogo.png);
+    background-size: cover;
+    height: 155px;
+    width: 190px;
+    margin-bottom: 15px;
+}
+
+.botoes {
+    position: fixed;
+    top: 0px;
+    right: 0px;
+    width: 165px;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    background-color: rgba(252, 99, 99, 0.034);
+}
+
+
+.botoes .botao {
+    border: none;
+    background: none;
+    cursor: pointer;
+    border-radius: 30px;
+    background: #000000;
+}
+
+.botoes .botao img {
+    border-radius: 30px;
+}
+
+.botoes .botao.selecionado {
+    transform: scale(1.3);
+    box-shadow: 0px 0px 5px white;
+}
