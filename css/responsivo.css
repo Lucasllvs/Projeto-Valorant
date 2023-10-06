@@ -18,14 +18,14 @@
 
     .conteudo .logo{
         display: none;
-        padding: 50px;
+        padding: 70px;
     }
 
     .botoes {
         flex-direction: row;
         align-items: flex-end;
         width: 100%;
-        padding: 55px;
+        padding: 70px;
         
 
     }
